@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  background-image: url("https://res.cloudinary.com/djzsbpran/image/upload/v1690171161/travel-again-concept-arrangement-with-copy-space_gejv9s.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.caption {
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Roboto;
+
+  margin-bottom: 20px;
+  text-align: right;
+  width: 250px;
+  margin-top: 4px;
+}
+
+
+
+.main-head {
+  font-family: Dancing Script;
+  font-weight: 700;
+  font-size: 40px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+  padding: 5px 75px;
+  border-radius: 10px;
+}
+
+.dropdown {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.select-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #c7effc, #a2e4fa, #75d1f0);
+}
+
+@media screen and (min-width: 768px) {
+  .select-section {
+    flex-direction: row;
+  }
+}
+
+.date-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-sub {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .select-sub {
+    flex-direction: row;
+    width: 85%;
+  }
+}
+
+.select-item {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .select-item {
+    width: 30%;
+  }
+}
+
+.button-con {
+  width: 90%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-con {
+    width: 15%;
+  }
+}
+
+.search-button {
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgb(18, 105, 18);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-button {
+    width: 100%;
+  }
+}
+
+.select-label {
+  font-weight: 500;
+}
+
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.date-picker {
+  height: 26px;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-family: Roboto, sans-serif;
+  color: hsl(0, 0%, 20%);
+  background-color: #f5f6f7;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.listed-container {
+  width: 90%;
+
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding: 30px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #ded7f7, #beb0f5, #978bc9);
+}
+
+.error-msg {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Jost;
+}
+
+.result-text {
+  font-size: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Jost;
+  color: rgb(24, 20, 82);
+}
+
+@media screen and (min-width: 768px){
+    .result-text{
+        font-size: 25px;
+    }
+}

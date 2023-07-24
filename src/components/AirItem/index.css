@@ -1,0 +1,115 @@
+.list-item {
+  background-color: rgba(239, 243, 247, 0.541);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    flex-direction: row;
+  }
+}
+
+.flight-image {
+  height: 40px;
+  width: 40px;
+}
+
+.company-section {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.start-place-section {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-section {
+    margin-bottom: 0px;
+  }
+
+  .start-place-section {
+    margin-bottom: 0px;
+  }
+}
+
+.flight-code {
+  font-family: Tektur;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.flight-name {
+  font-size: 12px;
+}
+
+.time {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 24px;
+  color: #300642;
+}
+
+.start-place {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(29, 98, 202);
+  text-align: center;
+}
+
+.end-place {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(40, 119, 40);
+  text-align: center;
+}
+
+.book-button {
+  width: 70px;
+  height: 28px;
+  background-color: rgb(180, 31, 31);
+  border-radius: 15px;
+  color: aliceblue;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-button {
+    margin-top: 0px;
+  }
+}
+
+.book-date {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.duration {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.price {
+  font-weight: 600;
+  font-family: Victor Mono;
+}
